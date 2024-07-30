@@ -1,6 +1,7 @@
 
 
 client.on('group_leave', notification => {
-    client.sendMessage(notification.id.remote, '¡Hasta luego! Esperamos verte de nuevo. Aquí tienes una imagen de Zoro Roronoa.');
+    client.sendMessage(notification.id.remote, 'Adiós, nakama Yo, Roronoa Zoro, te deseo un lindo día. Recuerda siempre que no eres un buen pirata, pero eso no significa que no puedas mejorar. ¡Sigue adelante y nunca te rindas!  ');
+   
     // Aquí puedes añadir la lógica para enviar una imagen
 });

@@ -1,5 +1,5 @@
 client.on('group_join', notification => {
-    client.sendMessage(notification.id.remote, '¡Bienvenido al grupo! Espero que disfrutes tu estancia. Aquí tienes una imagen de Zoro Roronoa.');
+    client.sendMessage(notification.id.remote, 'Yo, Roronoa Zoro, te doy la bienvenida a nuestra tripulación Aunque aún no seas un buen pirata, estoy seguro de que con esfuerzo y determinación, podrás mejorar y encontrar tu verdadero potencial..');
     // Aquí puedes añadir la lógica para enviar una imagen
 });
 
