@@ -1,0 +1,6 @@
+
+
+client.on('group_leave', notification => {
+    client.sendMessage(notification.id.remote, '¡Hasta luego! Esperamos verte de nuevo. Aquí tienes una imagen de Zoro Roronoa.');
+    // Aquí puedes añadir la lógica para enviar una imagen
+});
